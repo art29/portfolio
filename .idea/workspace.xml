@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3507fa31-c806-44be-a968-5bb741909d93" name="Default Changelist" comment="" />
+    <list default="true" id="3507fa31-c806-44be-a968-5bb741909d93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ds03otXp2NCCcuIBVNS2Z9xA9Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,6 +30,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../bootstrap-5.0.0-alpha1-examples/cover/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -40,7 +47,7 @@
       <updated>1593198296532</updated>
       <workItem from="1593198297691" duration="56000" />
       <workItem from="1593198604957" duration="8164000" />
-      <workItem from="1593208280798" duration="2550000" />
+      <workItem from="1593208280798" duration="3189000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3507fa31-c806-44be-a968-5bb741909d93" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ds03otXp2NCCcuIBVNS2Z9xA9Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bootstrap-5.0.0-alpha1-examples/cover/index.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3507fa31-c806-44be-a968-5bb741909d93" name="Default Changelist" comment="" />
+      <created>1593198296532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593198296532</updated>
+      <workItem from="1593198297691" duration="56000" />
+      <workItem from="1593198604957" duration="8164000" />
+      <workItem from="1593208280798" duration="2550000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2563" y="267" width="624" height="540" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1593206767440">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2563" y="267" width="624" height="540" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1030/3840.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593206767440" />
+    <state x="2663" y="297" width="424" height="480" key="FileChooserDialogImpl" timestamp="1593199285853">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="297" width="424" height="480" key="FileChooserDialogImpl/0.0.1920.1030/3840.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593199285853" />
+    <state x="2624" y="413" width="716" height="297" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1593209167940">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2624" y="413" width="716" height="297" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1030/3840.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593209167940" />
+  </component>
+</project>

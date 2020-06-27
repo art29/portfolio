@@ -19,51 +19,6 @@
     }
 }
 
-.p-t-30 {
-    padding-top: 30px;
-}
-
-.p-t-1rem {
-    padding-top: 1rem;
-}
-
-.align-self-center {
-    align-self: center!important;
-}
-
-.p-l-20 {
-    padding-left: 20px;
-}
-
-.p-r-20 {
-    padding-right: 20px;
-}
-
-.bg-dark-card {
-    background-color: #343a40!important
-}
-
-.w-inherit {
-    width: inherit!important;
-}
-
-.card {
-    margin-top: 12px;
-    margin-bottom: 12px;
-}
-
-.icons {
-    font-size: 3rem;
-}
-
-.p-1rem {
-    padding: 1rem;
-}
-
-#home {
-    padding-top: 110px;
-}
-
 /*
  * Header
  */
@@ -88,4 +43,30 @@
 .nav-masthead .active {
     color: #fff;
     border-bottom-color: #fff;
+}
+
+
+/* Bootstrap Modifications */
+
+.card {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/* Others */
+
+.align-self-center {
+    align-self: center!important;
+}
+
+.w-inherit {
+    width: inherit!important;
+}
+
+.icons {
+    font-size: 3em;
+}
+
+#home {
+    padding-top: 110px;
 }

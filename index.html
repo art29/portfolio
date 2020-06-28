@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio - Arthur Fétiveau</title>
-    <link rel="icon" href="assets/img/favicon.ico" />
+    <link rel="icon" href="assets/img/favicon.ico"/>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta name="description" content="Arthur Fétiveau's Portfolio">
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
@@ -11,6 +11,7 @@
     <link href="assets/css/devicon.css" rel="stylesheet">
     <link href="assets/css/devicon-colors.css" rel="stylesheet">
     <link href="assets/css/Style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -23,7 +24,7 @@
                 <a aria-current="page" class="nav-link active" href="#home">Home</a>
                 <a class="nav-link" href="#aboutmyself">About myself</a>
                 <a class="nav-link" href="#skills">Skills</a>
-                <a class="nav-link" href="#work">Work</a>
+                <a class="nav-link" data-i18n="menu.kenting" href="#work">Work</a>
                 <a class="nav-link" href="#contact">Contact</a>
             </nav>
         </div>
@@ -265,7 +266,8 @@
                             Google Assistant. This helps for different use cases : Maintenance (Easier with hands free
                             operations to change temperature, extrude filament ...), Accessibility (People with
                             disabilities can do some actions more easily) and many other operations
-                            !</p>
+                            ! It is part of a group of project called OctoRGB which groups different projects I made
+                            around the maker's community</p>
                         <p class="card-text">
                             Technologies <br>
                             <span class="icons">
@@ -294,6 +296,8 @@
                     <p class="text-muted">Example of conversion with the Assistant</p>
                     <img alt="Remote Printer example" src="assets/img/assistant.jpg"
                          style="width: 100%;">
+                    <img alt="OctoRGB's Logo" src="assets/img/octorgb.svg" class="pt-2"
+                         style="width: 55%;">
                 </div>
             </div>
         </div>
@@ -307,7 +311,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Email</h5>
-                        <svg style="margin-bottom: 3px" class="bi bi-at" fill="#17a2b8" height="3em" viewBox="0 0 16 16" width="3em"
+                        <svg style="margin-bottom: 3px" class="bi bi-at" fill="#17a2b8" height="3em" viewBox="0 0 16 16"
+                             width="3em"
                              xmlns="http://www.w3.org/2000/svg">
                             <path d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z"
                                   fill-rule="evenodd"/>
@@ -347,8 +352,9 @@
 
 
 <footer class="text-center m-0" style="background-color: #F6F6F6">
-    <p class="m-0 pb-3 pt-3">Website made by Arthur Fétiveau (Code Available on <a href="https://github.com/art29/portfolio"
-                                                             target="_blank" rel="noreferrer">GitHub</a>
+    <p class="m-0 pb-3 pt-3">Website made by Arthur Fétiveau (Code Available on <a
+            href="https://github.com/art29/portfolio"
+            target="_blank" rel="noreferrer">GitHub</a>
         with MIT license)</p>
 </footer>
 
@@ -358,7 +364,6 @@
 <script crossorigin="anonymous"
         integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
         src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="assets/js/app.js"></script>
 
 </body>

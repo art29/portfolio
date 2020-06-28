@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,6 +14,7 @@
     <link href="assets/css/Style.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
 <body>
 
 <div class="d-flex w-100 h-100 mx-auto flex-column text-center p-lr-20p">
@@ -21,22 +23,32 @@
             <nav class="nav nav-masthead justify-content-center" id="nav">
                 <h4>Arthur Fétiveau - Portfolio</h4>
                 <h3 class="pl-3 pr-3"> |</h3>
-                <a aria-current="page" class="nav-link active" href="#home">Home</a>
-                <a class="nav-link" href="#aboutmyself">About myself</a>
-                <a class="nav-link" href="#skills">Skills</a>
-                <a class="nav-link" data-i18n="menu.kenting" href="#work">Work</a>
-                <a class="nav-link" href="#contact">Contact</a>
+                <a data-lang="nav-home" aria-current="page" class="nav-link active" href="#home">Home</a>
+                <a data-lang="nav-about-myself" class="nav-link" href="#aboutmyself">About myself</a>
+                <a data-lang="nav-skills" class="nav-link" href="#skills">Skills</a>
+                <a data-lang="nav-work" class="nav-link" data-i18n="menu.kenting" href="#work">Work</a>
+                <a data-lang="nav-contact" class="nav-link" href="#contact">Contact</a>
+                <h3 class="pl-3 pr-3"> |</h3>
+                <a class="nav-link" href="?lang=en">EN</a>
+                <h4 class="pl-2 pr-2"> |</h4>
+                <a class="nav-link" href="?lang=fr">FR</a>
             </nav>
         </div>
 
         <div class="mobile-nav">
-            <h4>Arthur Fétiveau - Portfolio</h4>
+            <nav class="nav nav-masthead justify-content-center">
+                <h4>Arthur Fétiveau - Portfolio</h4>
+                <h3 class="pl-3 pr-3"> |</h3>
+                <a class="nav-link" href="?lang=en">EN</a>
+                <h4 class="pl-2 pr-2"> |</h4>
+                <a class="nav-link" href="?lang=fr">FR</a>
+            </nav>
             <nav class="nav nav-masthead justify-content-center" id="nav-mobile">
-                <a aria-current="page" class="nav-link active" href="#home">Home</a>
-                <a class="nav-link" href="#aboutmyself">About myself</a>
-                <a class="nav-link" href="#skills">Skills</a>
-                <a class="nav-link" href="#work">Work</a>
-                <a class="nav-link" href="#contact">Contact</a>
+                <a data-lang="nav-home" aria-current="page" class="nav-link active" href="#home">Home</a>
+                <a data-lang="nav-about-myself" class="nav-link" href="#aboutmyself">About myself</a>
+                <a data-lang="nav-skills" class="nav-link" href="#skills">Skills</a>
+                <a data-lang="nav-work" class="nav-link" href="#work">Work</a>
+                <a data-lang="nav-contact" class="nav-link" href="#contact">Contact</a>
             </nav>
         </div>
     </div>
@@ -45,35 +57,39 @@
         <div class="row py-lg-4 m-0 p-t-20-mobile">
             <div class="col-lg-12 col-md-8 mx-auto">
                 <h1>Arthur Fétiveau</h1>
-                <p class="lead">Junior Full-Stack Web Developer</p>
+                <p data-lang="junior-full-stack-web-developer" class="lead">Junior Full-Stack Web Developer</p>
             </div>
         </div>
     </section>
 
     <section class="p-lr-10p" id="aboutmyself">
-        <h3>About Myself</h3>
-        <p>First year Software Engineering Student at <a
-                class="text-dark"
-                href="https://engineering.uottawa.ca/undergraduate-programs/software-engineering"
-                target="_blank" rel="noreferrer">
-            University of Ottawa</a>, starting September 2020. I started programming about 5 years ago with HTML and CSS
+        <h3 data-lang="nav-about-myself">About Myself</h3>
+        <p>
+            <span data-lang="about-myself-p1">
+                First year Software Engineering Student at
+            University of Ottawa, starting September 2020. I started programming about 5 years ago with HTML and CSS
             and now mostly Ruby on Rails projects. I am also in the progress of learning more of Javascript and
             its libraries. I am always willing to learn news things !
+            </span>
             <br><br>
-            I am also very involved in the makers' community, by volunteering and working at UOttawa's
+            <span data-lang="about-myself-p2">
+                I am also very involved in the makers' community, by volunteering and working at UOttawa's
             makerspace for more than 4 years and going to different makers meetups around Ottawa. I love 3D
             Printing and laser cutting as well as working on electronics projects like making RC Airplanes and
             drones!
+            </span>
             <br><br>
-            On my free time, I love travelling, doing flight simulation (And hopefully soon get my pilot
+            <span data-lang="about-myself-p3">
+                On my free time, I love travelling, doing flight simulation (And hopefully soon get my pilot
             license) and aviation in general. I also love programming and playing with Raspberry PIs, 3D
             Printers and Laser Cutters.
+            </span>
         </p>
     </section>
 
     <section id="skills">
         <div class="row pt-3">
-            <h3>Skills</h3>
+            <h3 data-lang="nav-skills">Skills</h3>
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body">
@@ -103,7 +119,7 @@
                                     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
                                           fill-rule="evenodd"/>
                                 </svg>
-                                Javascript (In progress)
+                                Javascript <span data-lang="skills-in-progress">(In progress)</span>
                             </li>
                         </ul>
                         </p>
@@ -139,7 +155,7 @@
                                     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
                                           fill-rule="evenodd"/>
                                 </svg>
-                                NodeJS (Soon)
+                                NodeJS <span data-lang="skills-soon">(Soon)</span>
                             </li>
                         </ul>
                         </p>
@@ -186,7 +202,7 @@
                                     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
                                           fill-rule="evenodd"/>
                                 </svg>
-                                Linux Server Management (Apache, Nginx, Passenger)
+                                <span data-lang="skills-linux-server-management">Linux Server Management (Apache, Nginx, Passenger)</span>
                             </li>
                             <li>
                                 <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
@@ -205,13 +221,13 @@
     </section>
 
     <section id="work" class="pt-3">
-        <h2>My Work</h2>
+        <h2 data-lang="nav-work">My Work</h2>
         <div class="card mb-3">
             <div class="row g-0">
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">Makerepo.com</h5>
-                        <p class="card-text">This website is used by the University of Ottawa's makerspace to track the
+                        <p class="card-text" data-lang="my-work-p1">This website is used by the University of Ottawa's makerspace to track the
                             numbers of users in the space, as a project library for courses, to control the volunteer
                             program, to order 3D Prints and Laser cuts and more.</p>
                         <p class="card-text">
@@ -228,30 +244,30 @@
                                     <i class="devicon-github-original colored"></i>
                             </span>
                         </p>
-                        <p class="card-text">
+                        <p class="card-text" data-lang="my-work-contributions">
                             My contributions
                         </p>
                         <ul class="list-unstyled m-0 p-2">
-                            <li>
+                            <li data-lang="my-work-li-print-order">
                                 The Print Order System
                             </li>
-                            <li>
+                            <li data-lang="my-work-li-badge">
                                 Linkedin badge system
                             </li>
-                            <li>
+                            <li data-lang="my-work-li-migration-rails">
                                 Migration from Rails 4.2 to 5.2
                             </li>
-                            <li>
+                            <li data-lang="my-work-li-migration-paperclip">
                                 Migration for PaperClip to Active Storage
                             </li>
                         </ul>
                         <a href="https://makerepo.com" target="_blank" rel="noreferrer">
-                            <button class="btn btn-primary">Go on makerepo.com</button>
+                            <button class="btn btn-primary" data-lang="my-work-go-on-makerepo">Go on makerepo.com</button>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-4 p-3">
-                    <p class="text-muted">Makerepo.com's Mobile Home Page</p>
+                    <p class="text-muted" data-lang="my-work-makerepo-homepage">Makerepo.com's Mobile Home Page</p>
                     <img alt="Makerepo's mobile homepage" src="assets/img/makerepo-resized.png"
                          style="width: 100%;">
                 </div>
@@ -262,7 +278,7 @@
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">Remote Printer</h5>
-                        <p class="card-text">Remote Printer is a Raspberry Script made to control 3D Printer with the
+                        <p class="card-text"  data-lang="my-work-p2">Remote Printer is a Raspberry Script made to control 3D Printer with the
                             Google Assistant. This helps for different use cases : Maintenance (Easier with hands free
                             operations to change temperature, extrude filament ...), Accessibility (People with
                             disabilities can do some actions more easily) and many other operations
@@ -279,7 +295,7 @@
                                     <i class="devicon-apache-line-wordmark colored"></i>
                             </span>
                         </p>
-                        <p class="card-text">
+                        <p class="card-text" data-lang="my-work-p3">
                             Remote Printer uses Python with the Flask and Flask Assistant libraries to control the
                             server part and answering the queries with the help of Ngrok (To make a secured tunnel from
                             the server to Raspberry Pi), OctoPrint to control the 3D Printer and Dialogflow to control
@@ -288,12 +304,12 @@
                             user's server, all the instructions are available on Github.
                         </p>
                         <a href="https://github.com/art29/RemotePrinter" target="_blank" rel="noreferrer">
-                            <button class="btn btn-primary">Check out Remote Printer</button>
+                            <button class="btn btn-primary" data-lang="my-work-check-out-remote-printer">Check out Remote Printer</button>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-4 p-3">
-                    <p class="text-muted">Example of conversion with the Assistant</p>
+                    <p class="text-muted" data-lang="my-work-assistant">Example of conversation with the Assistant</p>
                     <img alt="Remote Printer example" src="assets/img/assistant.jpg"
                          style="width: 100%;">
                     <img alt="OctoRGB's Logo" src="assets/img/octorgb.svg" class="pt-2"
@@ -304,8 +320,8 @@
     </section>
 
     <section id="contact">
-        <h3>Contact Me</h3>
-        <p>You can contact me by email or on Twitter DMs</p>
+        <h3 data-lang="contact-me">Contact Me</h3>
+        <p data-lang="contact-me-p1">You can contact me by email or on Twitter DMs</p>
         <div class="row">
             <div class="col-sm-4">
                 <div class="card">
@@ -318,7 +334,7 @@
                                   fill-rule="evenodd"/>
                         </svg>
                         <p class="card-text">arthur[@]afetiveau.com</p>
-                        <a class="btn btn-info btn-block" href="mailto:arthur@afetiveau.com">Email Me</a>
+                        <a class="btn btn-info btn-block" href="mailto:arthur@afetiveau.com" data-lang="contact-me-email">Email Me</a>
                     </div>
                 </div>
             </div>
@@ -329,7 +345,7 @@
                         <i class="devicon-github-original contact-icons"></i>
                         <p class="card-text">art29</p>
                         <a class="btn btn-dark btn-block" href="https://github.com/art29" target="_blank"
-                           rel="noreferrer">Checkout my
+                           rel="noreferrer" data-lang="contact-me-github">Checkout my
                             GitHub</a>
                     </div>
                 </div>
@@ -342,7 +358,7 @@
                         <p class="card-text">@arthurfetiveau</p>
                         <a class="btn btn-primary btn-block"
                            href="https://twitter.com/messages/compose?recipient_id=4127019315"
-                           target="_blank" rel="noreferrer">Send me Private Message</a>
+                           target="_blank" rel="noreferrer" data-lang="contact-me-twitter">Send me Private Message</a>
                     </div>
                 </div>
             </div>
@@ -352,11 +368,14 @@
 
 
 <footer class="text-center m-0" style="background-color: #F6F6F6">
-    <p class="m-0 pb-3 pt-3">Website made by Arthur Fétiveau (Code Available on <a
+    <p class="m-0 pb-3 pt-3"><span data-lang="footer-p1">Website made by Arthur Fétiveau (Code Available on </span><a
             href="https://github.com/art29/portfolio"
             target="_blank" rel="noreferrer">GitHub</a>
-        with MIT license)</p>
+        <span data-lang="footer-p2">with MIT license)</span></p>
 </footer>
+
+<script src="assets/js/lang.js"></script>
+<script src="assets/js/translate.js"></script>
 
 <script crossorigin="anonymous"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"

@@ -26,6 +26,11 @@ function applyStrings(language) {
             element.textContent = langdata.languages[lang].strings[key];
         }
     });
+
+    let language_nav = document.getElementsByClassName(lang);
+    for (var i = 0; i < language_nav.length; i++) {
+        language_nav[i].classList.add("lang-active");
+    }
 }
 
 let url_params = new URLSearchParams(window.location.search);

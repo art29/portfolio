@@ -95,6 +95,11 @@
     border-bottom-color: #fff;
 }
 
+.lang-active {
+    color: #fff!important;
+    border-bottom: .25rem solid #fff!important;
+}
+
 /* Bootstrap Modifications */
 
 .card {

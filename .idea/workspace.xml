@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3507fa31-c806-44be-a968-5bb741909d93" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/translate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bootstrap-5.0.0-alpha1-examples/cover/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../programmation/canvas" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SvnConfiguration">
@@ -55,7 +52,8 @@
       <workItem from="1593224270039" duration="5668000" />
       <workItem from="1593277693548" duration="20801000" />
       <workItem from="1593359279935" duration="2433000" />
-      <workItem from="1593370804967" duration="7255000" />
+      <workItem from="1593370804967" duration="7360000" />
+      <workItem from="1593480232864" duration="73000" />
     </task>
     <servers />
   </component>
@@ -67,10 +65,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2563" y="267" width="624" height="540" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1030/3840.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593206767440" />
-    <state x="2663" y="297" width="424" height="480" key="FileChooserDialogImpl" timestamp="1593199285853">
+    <state x="2663" y="297" width="424" height="480" key="FileChooserDialogImpl" timestamp="1593480304152">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2663" y="297" width="424" height="480" key="FileChooserDialogImpl/0.0.1920.1030/3840.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593199285853" />
+    <state x="2663" y="297" width="424" height="480" key="FileChooserDialogImpl/0.0.1920.1030/3840.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593480304152" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1593375084521">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

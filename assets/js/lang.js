@@ -35,7 +35,7 @@ let langdata = {
                 "contact-me-p1": "You can contact me by email or on Twitter DMs",
                 "contact-me-email": "Email me",
                 "contact-me-github": "Checkout my GitHub",
-                "contact-me-twitter": "Send me a Private Message",
+                "contact-me-linkedin": "Connect on Linkedin",
                 "footer-p1": "Website made by Arthur Fétiveau (Code Available on ",
                 "footer-p2": " with MIT license)"
             }
@@ -74,7 +74,7 @@ let langdata = {
                 "contact-me-p1": "Vous pouvez me contacter par email ou message privés Twitter",
                 "contact-me-email": "Envoyez moi un email",
                 "contact-me-github": "Allez voir mon GitHub",
-                "contact-me-twitter": "Envoyez moi un message privé",
+                "contact-me-linkedin": "Connectez avec moi",
                 "footer-p1": "Site fait par Arthur Fétiveau (Le code est disponible sur ",
                 "footer-p2": " avec une license MIT)"
             }

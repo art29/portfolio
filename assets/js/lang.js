@@ -32,7 +32,8 @@ let langdata = {
                 "my-work-check-out-organizer": "Check out The Spotify Playlist Organizer",
                 "my-work-organizer": "OAuth Spotify Login page",
                 "contact-me": "Contact Me",
-                "contact-me-p1": "You can contact me by email or on Twitter DMs",
+                "contact-me-p1": "You can contact me by email and my resume is available ",
+                "here": 'here',
                 "contact-me-email": "Email me",
                 "contact-me-github": "Checkout my GitHub",
                 "contact-me-linkedin": "Connect on Linkedin",
@@ -71,10 +72,11 @@ let langdata = {
                 "my-work-check-out-organizer": "Aller voir l'organisateur de playlist",
                 "my-work-organizer": "Page de connection a la page de Spotify OAuth",
                 "contact-me": "Contactez-moi",
-                "contact-me-p1": "Vous pouvez me contacter par email ou message privés Twitter",
+                "contact-me-p1": "Vous pouvez me contacter par courriel et mon CV est disponible (en anglais seulement) ",
+                "here": 'ici',
                 "contact-me-email": "Envoyez moi un email",
                 "contact-me-github": "Allez voir mon GitHub",
-                "contact-me-linkedin": "Connectez avec moi",
+                "contact-me-linkedin": "Ajoutez-moi",
                 "footer-p1": "Site fait par Arthur Fétiveau (Le code est disponible sur ",
                 "footer-p2": " avec une license MIT)"
             }

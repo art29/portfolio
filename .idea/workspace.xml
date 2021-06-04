@@ -34,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../programmation/GradeCalc" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -65,7 +65,11 @@
       <workItem from="1612389997285" duration="487000" />
       <workItem from="1614713073815" duration="33000" />
       <workItem from="1614804090463" duration="4000" />
-      <workItem from="1618087111477" duration="331000" />
+      <workItem from="1618087111477" duration="597000" />
+      <workItem from="1618363385403" duration="2000" />
+      <workItem from="1619367315441" duration="1000" />
+      <workItem from="1619389240145" duration="12000" />
+      <workItem from="1622846637391" duration="304000" />
     </task>
     <servers />
   </component>

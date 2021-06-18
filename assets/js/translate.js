@@ -15,7 +15,7 @@ function applyStrings(language) {
         }
     }
 
-    if(lang === null) {
+    if (lang === null) {
         lang = default_language;
     }
 
@@ -28,7 +28,7 @@ function applyStrings(language) {
     });
 
     let language_nav = document.getElementsByClassName(lang);
-    for (var i = 0; i < language_nav.length; i++) {
+    for (let i = 0; i < language_nav.length; i++) {
         language_nav[i].classList.add("lang-active");
     }
 }

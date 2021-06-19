@@ -1,33 +1,22 @@
 document.addEventListener("DOMContentLoaded", function (event) {
 
-    let headerHeight = document.querySelector(".mb-auto").clientHeight + 20;
-
-    document.getElementsByTagName("body")[0].style = "margin-top: " + headerHeight + "px";
-
-    let links = document.querySelectorAll(".nav .nav-link")
+    let links = document.querySelectorAll(".nav-link")
 
     for(let i = 0; i < links.length; i++){
         links[i].addEventListener("click", () => {
-            Array.from(document.querySelectorAll('.nav .active')).forEach((el) => el.classList.remove('active'));
+            Array.from(document.querySelectorAll('.nav-link.active')).forEach((el) => el.classList.remove('active'));
             links[i].classList.add("active");
 
-            if (location.pathname.replace(/^\//, '') === links[i].pathname.replace(/^\//, '') || location.hostname === links[i].hostname) {
-
-                let target = document.querySelector(links[i].hash)
-                let headerHeight = document.querySelector(".mb-auto").clientHeight + 20; // Get fixed header height
-
-                document.getElementsByTagName("body")[0].style = "margin-top: " + headerHeight + "px";
-
-                if (target != undefined) {
-                    scrollTo(document.querySelector('html,body'), target.offsetTop - headerHeight, 500)
-                    return false;
-                }
+            let target = document.querySelector(links[i].hash)
+            if (target !== undefined) {
+                scrollTo(document.querySelector('html,body'), target.offsetTop - document.querySelector(".navbar").clientHeight - 10, 200)
+                return false;
             }
         })
     }
 });
 
-
+// TODO: Remove the anchor thing and find a better way
 
 // Based on : https://gist.github.com/andjosh/6764939 and the gist comments
 

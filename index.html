@@ -25,223 +25,210 @@ You can contact me at
 -->
 
 <body>
+<nav class="navbar sticky-top navbar-dark bg-dark navbar-expand">
+    <div class="container-fluid">
+        <div class="d-flex flex-wrap align-items-center justify-content-center text-white">
+            <a class="navbar-brand" href="#">Arthur Fétiveau - Portfolio</a>
+            <h3 class="px-2 d-md-none d-sm-none d-none d-lg-block"> |</h3>
+            <ul class="nav navbar-nav col-12 col-md-auto me-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a data-lang="nav-home" aria-current="page" class="nav-link active" href="#home">Home</a></li>
+                <li><a data-lang="nav-about-myself" class="nav-link" href="#aboutmyself">About myself</a></li>
+                <li><a data-lang="nav-skills" class="nav-link" href="#skills">Skills</a></li>
+                <li><a data-lang="nav-work" class="nav-link" data-i18n="menu.kenting" href="#work">Work</a></li>
+                <li><a data-lang="nav-contact" class="nav-link" href="#contact">Contact</a></li>
+            </ul>
 
-<div class="d-flex w-100 h-100 mx-auto flex-column text-center p-lr-20p">
-    <div class="mb-auto pt-1rem cover-container fixed-top py-3 align-self-center text-white bg-dark w-inherit">
-        <div class="pc-nav">
-            <nav class="nav nav-masthead justify-content-center" id="nav">
-                <h4>Arthur Fétiveau - Portfolio</h4>
-                <h3 class="px-2"> |</h3>
-                <a data-lang="nav-home" aria-current="page" class="nav-link active" href="#home">Home</a>
-                <a data-lang="nav-about-myself" class="nav-link" href="#aboutmyself">About myself</a>
-                <a data-lang="nav-skills" class="nav-link" href="#skills">Skills</a>
-                <a data-lang="nav-work" class="nav-link" data-i18n="menu.kenting" href="#work">Work</a>
-                <a data-lang="nav-contact" class="nav-link" href="#contact">Contact</a>
-                <h3 class="px-2"> |</h3>
-                <a class="nav-link en" href="?lang=en">EN</a>
-                <h4 class="px-2"> |</h4>
-                <a class="nav-link fr" href="?lang=fr">FR</a>
-            </nav>
-        </div>
-
-        <div class="mobile-nav">
-            <nav class="nav nav-masthead justify-content-center">
-                <h4>Arthur Fétiveau - Portfolio</h4>
-                <h3 class="px-2">|</h3>
-                <a class="nav-link en" href="?lang=en">EN</a>
-                <h4 class="px-2">|</h4>
-                <a class="nav-link fr" href="?lang=fr">FR</a>
-                <h3 class="px-2">|</h3>
-            </nav>
-            <nav class="nav nav-masthead justify-content-center" id="nav-mobile">
-                <a data-lang="nav-home" aria-current="page" class="nav-link active" href="#home">Home</a>
-                <a data-lang="nav-about-myself" class="nav-link" href="#aboutmyself">About myself</a>
-                <a data-lang="nav-skills" class="nav-link" href="#skills">Skills</a>
-                <a data-lang="nav-work" class="nav-link" href="#work">Work</a>
-                <a data-lang="nav-contact" class="nav-link" href="#contact">Contact</a>
-            </nav>
+            <h3 class="px-2 d-md-none d-sm-none d-none d-lg-block"> |</h3>
+            <a class="nav-link en text-white" href="?lang=en">EN</a>
+            <h4 class="px-2"> |</h4>
+            <a class="nav-link fr text-white" href="?lang=fr">FR</a>
         </div>
     </div>
+</nav>
 
-    <section id="home">
-        <div class="row py-lg-4 m-0 p-t-20-mobile">
-            <div class="col-lg-12 col-md-8 mx-auto">
-                <h1>Arthur Fétiveau</h1>
-                <p data-lang="junior-full-stack-web-developer" class="lead">Junior Full-Stack Web Developer</p>
+<div class="d-flex w-100 h-100 mx-auto flex-column text-center p-lr-20p">
+    <main class="container">
+        <section id="home">
+            <div class="row py-lg-4 m-0 p-t-20-mobile">
+                <div class="col-lg-12 col-md-8 mx-auto">
+                    <h1>Arthur Fétiveau</h1>
+                    <p data-lang="junior-full-stack-web-developer" class="lead">Junior Full-Stack Web Developer</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="p-lr-10p" id="aboutmyself">
-        <h3 data-lang="nav-about-myself">About Myself</h3>
-        <p>
+        <section class="p-lr-10p" id="aboutmyself">
+            <h3 data-lang="nav-about-myself">About Myself</h3>
+            <p>
             <span data-lang="about-myself-p1">
                 First year Software Engineering Student at
             University of Ottawa, starting September 2020. I started programming about 7-8 years ago with HTML and CSS
             and now mostly Ruby on Rails and Python projects. I am also in the progress of learning more of Javascript and
             its libraries. I am always willing to learn news things !
             </span>
-            <br><br>
-            <span data-lang="about-myself-p2">
+                <br><br>
+                <span data-lang="about-myself-p2">
                 I am also very involved in the makers' community, by volunteering and working at UOttawa's
             makerspace for more than 4 years and going to different makers meetups around Ottawa. I love 3D
             Printing and laser cutting as well as working on electronics projects like making RC Airplanes and
             drones!
             </span>
-            <br><br>
-            <span data-lang="about-myself-p3">
+                <br><br>
+                <span data-lang="about-myself-p3">
                 On my free time, I love travelling, doing flight simulation (And hopefully soon get my pilot
             license) and aviation in general. I also love programming and playing with Raspberry PIs, 3D
             Printers and Laser Cutters.
             </span>
-        </p>
-    </section>
+            </p>
+        </section>
 
-    <section id="skills">
-        <div class="row pt-3">
-            <h3 data-lang="nav-skills">Skills</h3>
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Front-End</h5>
-                        <ul class="list-unstyled mt-3 mb-4 check">
-                            <li>
-                                <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
-                                     width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-                                          fill-rule="evenodd"/>
-                                </svg>
-                                HTML
-                            </li>
-                            <li>
-                                <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
-                                     width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-                                          fill-rule="evenodd"/>
-                                </svg>
-                                CSS
-                            </li>
-                            <li>
-                                <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
-                                     width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-                                          fill-rule="evenodd"/>
-                                </svg>
-                                <span data-lang="skills-javascript">Basic Knowledge of JavaScript</span>
-                            </li>
-                        </ul>
+        <section id="skills">
+            <div class="row pt-3">
+                <h3 data-lang="nav-skills">Skills</h3>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Front-End</h5>
+                            <ul class="list-unstyled mt-3 mb-4 check">
+                                <li>
+                                    <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
+                                         width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                                              fill-rule="evenodd"/>
+                                    </svg>
+                                    HTML
+                                </li>
+                                <li>
+                                    <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
+                                         width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                                              fill-rule="evenodd"/>
+                                    </svg>
+                                    CSS
+                                </li>
+                                <li>
+                                    <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
+                                         width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                                              fill-rule="evenodd"/>
+                                    </svg>
+                                    <span data-lang="skills-javascript">Basic Knowledge of JavaScript</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Back-End</h5>
+                            <ul class="list-unstyled mt-3 mb-4 check">
+                                <li>
+                                    <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
+                                         width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                                              fill-rule="evenodd"/>
+                                    </svg>
+                                    Ruby / Ruby on Rails
+                                </li>
+                                <li>
+                                    <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
+                                         width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                                              fill-rule="evenodd"/>
+                                    </svg>
+                                    Python / Flask
+                                </li>
+                                <li>
+                                    <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
+                                         width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                                              fill-rule="evenodd"/>
+                                    </svg>
+                                    <span data-lang="skills-java">Basic Knowledge of Java</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Databases</h5>
+                            <ul class="list-unstyled mt-3 mb-4 check">
+                                <li>
+                                    <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
+                                         width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                                              fill-rule="evenodd"/>
+                                    </svg>
+                                    MySQL
+                                </li>
+                                <li>
+                                    <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
+                                         width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                                              fill-rule="evenodd"/>
+                                    </svg>
+                                    PostgreSQL
+                                </li>
+                                <li>
+                                    <svg class="bi bi-check-circle-fill" fill="rgba(44, 146, 236, 0.5)" height="1em"
+                                         viewBox="0 0 16 16"
+                                         width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                                              fill-rule="evenodd"/>
+                                    </svg>
+                                    MongoDB <span data-lang="skills-soon">(Soon)</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Others</h5>
+                            <ul class="list-unstyled mt-3 mb-4 check">
+                                <li>
+                                    <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
+                                         width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                                              fill-rule="evenodd"/>
+                                    </svg>
+                                    <span data-lang="skills-linux-server-management">Linux Server Management (Apache, Nginx, Passenger)</span>
+                                </li>
+                                <li>
+                                    <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
+                                         width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
+                                              fill-rule="evenodd"/>
+                                    </svg>
+                                    Versioning (Git, GitHub, GitLab)
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Back-End</h5>
-                        <ul class="list-unstyled mt-3 mb-4 check">
-                            <li>
-                                <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
-                                     width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-                                          fill-rule="evenodd"/>
-                                </svg>
-                                Ruby / Ruby on Rails
-                            </li>
-                            <li>
-                                <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
-                                     width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-                                          fill-rule="evenodd"/>
-                                </svg>
-                                Python / Flask
-                            </li>
-                            <li>
-                                <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
-                                     width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-                                          fill-rule="evenodd"/>
-                                </svg>
-                                <span data-lang="skills-java">Basic Knowledge of Java</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Databases</h5>
-                        <ul class="list-unstyled mt-3 mb-4 check">
-                            <li>
-                                <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
-                                     width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-                                          fill-rule="evenodd"/>
-                                </svg>
-                                MySQL
-                            </li>
-                            <li>
-                                <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
-                                     width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-                                          fill-rule="evenodd"/>
-                                </svg>
-                                PostgreSQL
-                            </li>
-                            <li>
-                                <svg class="bi bi-check-circle-fill" fill="rgba(44, 146, 236, 0.5)" height="1em"
-                                     viewBox="0 0 16 16"
-                                     width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-                                          fill-rule="evenodd"/>
-                                </svg>
-                                MongoDB <span data-lang="skills-soon">(Soon)</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Others</h5>
-                        <ul class="list-unstyled mt-3 mb-4 check">
-                            <li>
-                                <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
-                                     width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-                                          fill-rule="evenodd"/>
-                                </svg>
-                                <span data-lang="skills-linux-server-management">Linux Server Management (Apache, Nginx, Passenger)</span>
-                            </li>
-                            <li>
-                                <svg class="bi bi-check-circle-fill" fill="#2c92ec" height="1em" viewBox="0 0 16 16"
-                                     width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"
-                                          fill-rule="evenodd"/>
-                                </svg>
-                                Versioning (Git, GitHub, GitLab)
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="work" class="pt-3">
-        <h2 data-lang="nav-work">My Work</h2>
-        <div class="card mb-3">
-            <div class="row g-0">
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Makerepo.com</h5>
-                        <p class="card-text" data-lang="my-work-p1">This website is used by the University of Ottawa's
-                            makerspace to track the
-                            numbers of users in the space, as a project library for courses, to control the volunteer
-                            program, to order 3D Prints and Laser cuts and more.</p>
-                        <p class="card-text">
-                            Technologies <br>
-                            <span class="icons">
+        <section id="work" class="pt-3">
+            <h2 data-lang="nav-work">My Work</h2>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Makerepo.com</h5>
+                            <p class="card-text" data-lang="my-work-p1">This website is used by the University of
+                                Ottawa's
+                                makerspace to track the
+                                numbers of users in the space, as a project library for courses, to control the
+                                volunteer
+                                program, to order 3D Prints and Laser cuts and more.</p>
+                            <p class="card-text">
+                                Technologies <br>
+                                <span class="icons">
                                     <i class="devicon-ruby-plain colored"></i>
                                     <i class="devicon-rails-plain-wordmark colored"></i>
                                     <i class="devicon-postgresql-plain-wordmark colored"></i>
@@ -252,52 +239,54 @@ You can contact me at
                                     <i class="devicon-jquery-plain-wordmark colored"></i>
                                     <i class="devicon-github-original colored"></i>
                             </span>
-                        </p>
-                        <p class="card-text" data-lang="my-work-contributions">
-                            My contributions:
-                        <ul class="list-unstyled m-0">
-                            <li data-lang="my-work-li-print-order">
-                                The Print Order System
-                            </li>
-                            <li data-lang="my-work-li-badge">
-                                Linkedin badge system
-                            </li>
-                            <li data-lang="my-work-li-migration-rails">
-                                Migration from Rails 4.2 to 5.2
-                            </li>
-                            <li data-lang="my-work-li-migration-paperclip">
-                                Migration for PaperClip to Active Storage
-                            </li>
-                        </ul>
-                        </p>
-                        <a href="https://makerepo.com" target="_blank" rel="noreferrer">
-                            <button class="btn btn-primary" data-lang="my-work-go-on-makerepo">Go on makerepo.com
-                            </button>
-                        </a>
+                            </p>
+                            <p class="card-text" data-lang="my-work-contributions">
+                                My contributions:
+                            <ul class="list-unstyled m-0">
+                                <li data-lang="my-work-li-print-order">
+                                    The Print Order System
+                                </li>
+                                <li data-lang="my-work-li-badge">
+                                    Linkedin badge system
+                                </li>
+                                <li data-lang="my-work-li-migration-rails">
+                                    Migration from Rails 4.2 to 5.2
+                                </li>
+                                <li data-lang="my-work-li-migration-paperclip">
+                                    Migration for PaperClip to Active Storage
+                                </li>
+                            </ul>
+                            </p>
+                            <a href="https://makerepo.com" target="_blank" rel="noreferrer">
+                                <button class="btn btn-primary" data-lang="my-work-go-on-makerepo">Go on makerepo.com
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <p class="text-muted" data-lang="my-work-makerepo-homepage">Makerepo.com's Mobile Home Page</p>
+                        <img alt="Makerepo's mobile homepage" src="assets/img/makerepo-resized.png"
+                             style="width: 100%;">
                     </div>
                 </div>
-                <div class="col-md-4 p-3">
-                    <p class="text-muted" data-lang="my-work-makerepo-homepage">Makerepo.com's Mobile Home Page</p>
-                    <img alt="Makerepo's mobile homepage" src="assets/img/makerepo-resized.png"
-                         style="width: 100%;">
-                </div>
             </div>
-        </div>
-        <div class="card mb-3">
-            <div class="row g-0">
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Remote Printer</h5>
-                        <p class="card-text" data-lang="my-work-p2">Remote Printer is a Raspberry Script made to control
-                            3D Printer with the
-                            Google Assistant. This helps for different use cases : Maintenance (Easier with hands free
-                            operations to change temperature, extrude filament ...), Accessibility (People with
-                            disabilities can do some actions more easily) and many other operations
-                            ! It is part of a group of project called OctoRGB which groups different projects I made
-                            around the maker's community</p>
-                        <p class="card-text">
-                            Technologies <br>
-                            <span class="icons">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Remote Printer</h5>
+                            <p class="card-text" data-lang="my-work-p2">Remote Printer is a Raspberry Script made to
+                                control
+                                3D Printer with the
+                                Google Assistant. This helps for different use cases : Maintenance (Easier with hands
+                                free
+                                operations to change temperature, extrude filament ...), Accessibility (People with
+                                disabilities can do some actions more easily) and many other operations
+                                ! It is part of a group of project called OctoRGB which groups different projects I made
+                                around the maker's community</p>
+                            <p class="card-text">
+                                Technologies <br>
+                                <span class="icons">
                                     <i class="devicon-python-plain-wordmark colored"></i>
                                     <img alt="Google Assistant Logo" src="assets/img/Google_Assistant_logo.svg"
                                          style="height: 48px; vertical-align: inherit!important;">
@@ -305,44 +294,48 @@ You can contact me at
                                     <i class="devicon-github-original"></i>
                                     <i class="devicon-apache-line-wordmark colored"></i>
                             </span>
-                        </p>
-                        <p class="card-text" data-lang="my-work-p3">
-                            Remote Printer uses Python with the Flask and Flask Assistant libraries to control the
-                            server part and answering the queries with the help of Ngrok (To make a secured tunnel from
-                            the server to Raspberry Pi), OctoPrint to control the 3D Printer and Dialogflow to control
-                            de Voice Assistant side of the app. The client part is available with a few scripts and
-                            minimal configuration, the server part can either be used with my personal server or the
-                            user's server, all the instructions are available on Github.
-                        </p>
-                        <a href="https://github.com/art29/RemotePrinter" target="_blank" rel="noreferrer">
-                            <button class="btn btn-primary" data-lang="my-work-check-out-remote-printer">Check out
-                                Remote Printer
-                            </button>
-                        </a>
+                            </p>
+                            <p class="card-text" data-lang="my-work-p3">
+                                Remote Printer uses Python with the Flask and Flask Assistant libraries to control the
+                                server part and answering the queries with the help of Ngrok (To make a secured tunnel
+                                from
+                                the server to Raspberry Pi), OctoPrint to control the 3D Printer and Dialogflow to
+                                control
+                                de Voice Assistant side of the app. The client part is available with a few scripts and
+                                minimal configuration, the server part can either be used with my personal server or the
+                                user's server, all the instructions are available on Github.
+                            </p>
+                            <a href="https://github.com/art29/RemotePrinter" target="_blank" rel="noreferrer">
+                                <button class="btn btn-primary" data-lang="my-work-check-out-remote-printer">Check out
+                                    Remote Printer
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <p class="text-muted" data-lang="my-work-assistant">Example of conversation with the
+                            Assistant</p>
+                        <img alt="Remote Printer example" src="assets/img/assistant.jpg"
+                             style="width: 100%;">
+                        <img alt="OctoRGB's Logo" src="assets/img/octorgb.svg" class="pt-2"
+                             style="width: 55%;">
                     </div>
                 </div>
-                <div class="col-md-4 p-3">
-                    <p class="text-muted" data-lang="my-work-assistant">Example of conversation with the Assistant</p>
-                    <img alt="Remote Printer example" src="assets/img/assistant.jpg"
-                         style="width: 100%;">
-                    <img alt="OctoRGB's Logo" src="assets/img/octorgb.svg" class="pt-2"
-                         style="width: 55%;">
-                </div>
             </div>
-        </div>
-        <div class="card mb-3">
-            <div class="row g-0">
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Transaction Tracker</h5>
-                        <p class="card-text" data-lang="my-work-transaction-tracker-p1">Transaction Tracker is a Ruby on
-                            Rails website made
-                            to track spending and earning history by categories. You can input different custom
-                            categories and your different transactions and see your monthly or yearly spending and
-                            earning easily</p>
-                        <p class="card-text">
-                            Technologies <br>
-                            <span class="icons">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Transaction Tracker</h5>
+                            <p class="card-text" data-lang="my-work-transaction-tracker-p1">Transaction Tracker is a
+                                Ruby on
+                                Rails website made
+                                to track spending and earning history by categories. You can input different custom
+                                categories and your different transactions and see your monthly or yearly spending and
+                                earning easily</p>
+                            <p class="card-text">
+                                Technologies <br>
+                                <span class="icons">
                                     <i class="devicon-ruby-plain colored"></i>
                                     <i class="devicon-rails-plain-wordmark colored"></i>
                                     <i class="devicon-postgresql-plain-wordmark colored"></i>
@@ -351,114 +344,122 @@ You can contact me at
                                     <i class="devicon-bootstrap-plain-wordmark colored"></i>
                                     <i class="devicon-github-original colored"></i>
                             </span>
-                        </p>
-                        <a href="https://transactionstracker.herokuapp.com/" target="_blank" rel="noreferrer">
-                            <button class="btn btn-primary" data-lang="my-work-go-on-transaction-tracker">Go to
-                                Transaction-Tracker
-                            </button>
-                        </a>
-                        <a href="https://github.com/art29/transaction-tracker" target="_blank" rel="noreferrer">
-                            <button class="btn btn-primary" data-lang="my-work-go-on-transaction-tracker-github">Check
-                                out the code on GitHub
-                            </button>
-                        </a>
+                            </p>
+                            <a href="https://transactionstracker.herokuapp.com/" target="_blank" rel="noreferrer">
+                                <button class="btn btn-primary" data-lang="my-work-go-on-transaction-tracker">Go to
+                                    Transaction-Tracker
+                                </button>
+                            </a>
+                            <a href="https://github.com/art29/transaction-tracker" target="_blank" rel="noreferrer">
+                                <button class="btn btn-primary" data-lang="my-work-go-on-transaction-tracker-github">
+                                    Check
+                                    out the code on GitHub
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <p class="text-muted" data-lang="my-work-transaction-tracker-homepage">Transaction Tracker Home
+                            Page</p>
+                        <img alt="Transaction Tracker Mobile Home Page" src="assets/img/transaction-tracker-resized.jpg"
+                             style="width: 100%;">
                     </div>
                 </div>
-                <div class="col-md-4 p-3">
-                    <p class="text-muted" data-lang="my-work-transaction-tracker-homepage">Transaction Tracker Home
-                        Page</p>
-                    <img alt="Transaction Tracker Mobile Home Page" src="assets/img/transaction-tracker-resized.jpg"
-                         style="width: 100%;">
-                </div>
             </div>
-        </div>
-        <div class="card mb-3">
-            <div class="row g-0">
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Spotify Playlist Organizer</h5>
-                        <p class="card-text" data-lang="my-work-p4">The Spotify Playlist Organizer is a little website
-                            that lets you change the order of the spotify playlist once you connect to your spotify
-                            account! It's can be useful for events if you want to put tracks at specific times ! It
-                            duplicates the base playlist in the order you choose so you don't loose the old order</p>
-                        <p class="card-text">
-                            Technologies <br>
-                            <span class="icons">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Spotify Playlist Organizer</h5>
+                            <p class="card-text" data-lang="my-work-p4">The Spotify Playlist Organizer is a little
+                                website
+                                that lets you change the order of the spotify playlist once you connect to your spotify
+                                account! It's can be useful for events if you want to put tracks at specific times ! It
+                                duplicates the base playlist in the order you choose so you don't loose the old
+                                order</p>
+                            <p class="card-text">
+                                Technologies <br>
+                                <span class="icons">
                                     <i class="devicon-python-plain-wordmark colored"></i>
                                     <i class="devicon-git-plain-wordmark colored"></i>
                                     <i class="devicon-github-original"></i>
                                     <i class="devicon-apache-line-wordmark colored"></i>
                             </span>
-                        </p>
-                        <p class="card-text" data-lang="my-work-p5">
-                            The Spotify Playlist Organizer uses Python with flask and HTML to create the page, it uses a
-                            the spotify api to get the tracks and playlists and to re-create the new playlist at the end
-                            of the process ! Everything in the spotify account is secured with the oauth token given
-                            when you connect your spotify account to the app.
-                        </p>
-                        <a href="https://github.com/art29/SpotifyPlaylistOrganizer" target="_blank" rel="noreferrer">
-                            <button class="btn btn-primary" data-lang="my-work-check-out-organizer">Check out
-                                The Spotify Playlist Organizer
-                            </button>
-                        </a>
+                            </p>
+                            <p class="card-text" data-lang="my-work-p5">
+                                The Spotify Playlist Organizer uses Python with flask and HTML to create the page, it
+                                uses a
+                                the spotify api to get the tracks and playlists and to re-create the new playlist at the
+                                end
+                                of the process ! Everything in the spotify account is secured with the oauth token given
+                                when you connect your spotify account to the app.
+                            </p>
+                            <a href="https://github.com/art29/SpotifyPlaylistOrganizer" target="_blank"
+                               rel="noreferrer">
+                                <button class="btn btn-primary" data-lang="my-work-check-out-organizer">Check out
+                                    The Spotify Playlist Organizer
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <p class="text-muted" data-lang="my-work-organizer">OAuth Spotify Login page</p>
+                        <img alt="Remote Printer example" src="assets/img/playlist-organizer.png"
+                             style="width: 100%;">
                     </div>
                 </div>
-                <div class="col-md-4 p-3">
-                    <p class="text-muted" data-lang="my-work-organizer">OAuth Spotify Login page</p>
-                    <img alt="Remote Printer example" src="assets/img/playlist-organizer.png"
-                         style="width: 100%;">
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact">
-        <h3 data-lang="contact-me">Contact Me</h3>
-        <p><span data-lang="contact-me-p1">You can contact me by email, My resume is available </span><a
-                href="assets/media/ArthurFetiveau-Resume-10_04_2021.pdf"><span data-lang="here">here</span></a>.</p>
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Email</h5>
-                        <svg style="margin-bottom: 3px" class="bi bi-at" fill="#17a2b8" height="3em" viewBox="0 0 16 16"
-                             width="3em"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <path d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z"
-                                  fill-rule="evenodd"/>
-                        </svg>
-                        <p class="card-text">arthur[@]afetiveau.com</p>
-                        <a class="btn btn-secondary" href="mailto:arthur@afetiveau.com"
-                           data-lang="contact-me-email">Email Me</a>
+        <section id="contact">
+            <h3 data-lang="contact-me">Contact Me</h3>
+            <p><span data-lang="contact-me-p1">You can contact me by email, My resume is available </span><a
+                    href="assets/media/ArthurFetiveau-Resume-10_04_2021.pdf"><span data-lang="here">here</span></a>.</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Email</h5>
+                            <svg style="margin-bottom: 3px" class="bi bi-at" fill="#17a2b8" height="3em"
+                                 viewBox="0 0 16 16"
+                                 width="3em"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z"
+                                      fill-rule="evenodd"/>
+                            </svg>
+                            <p class="card-text">arthur[@]afetiveau.com</p>
+                            <a class="btn btn-secondary" href="mailto:arthur@afetiveau.com"
+                               data-lang="contact-me-email">Email Me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Github</h5>
+                            <i class="devicon-github-original contact-icons"></i>
+                            <p class="card-text">art29</p>
+                            <a class="btn btn-dark" href="https://github.com/art29" target="_blank"
+                               rel="noreferrer" data-lang="contact-me-github">Checkout my
+                                GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Linkedin</h5>
+                            <i class="devicon-linkedin-plain colored colored contact-icons"></i>
+                            <p class="card-text">/arthur-fetiveau</p>
+                            <a class="btn btn-primary"
+                               href="https://ca.linkedin.com/in/arthur-fetiveau"
+                               target="_blank" rel="noreferrer" data-lang="contact-me-linkedin">Connect on Linkedin</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Github</h5>
-                        <i class="devicon-github-original contact-icons"></i>
-                        <p class="card-text">art29</p>
-                        <a class="btn btn-dark" href="https://github.com/art29" target="_blank"
-                           rel="noreferrer" data-lang="contact-me-github">Checkout my
-                            GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Linkedin</h5>
-                        <i class="devicon-linkedin-plain colored colored contact-icons"></i>
-                        <p class="card-text">/arthur-fetiveau</p>
-                        <a class="btn btn-primary"
-                           href="https://ca.linkedin.com/in/arthur-fetiveau"
-                           target="_blank" rel="noreferrer" data-lang="contact-me-linkedin">Connect on Linkedin</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 </div>
 
 

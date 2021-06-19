@@ -25,32 +25,6 @@
     }
 }
 
-@media only screen and (max-width: 690px) {
-    .mobile-nav {
-        display: block;
-    }
-
-    .pc-nav {
-        display: none;
-    }
-    body {
-        margin-top: 102px;
-    }
-}
-
-@media only screen and (min-width: 691px) {
-    .mobile-nav {
-        display: none;
-    }
-
-    .pc-nav {
-        display: block;
-    }
-    body {
-        margin-top: 70px;
-    }
-}
-
 @media only screen and (max-width: 1315px) {
     .check {
         padding-left: 20px;
